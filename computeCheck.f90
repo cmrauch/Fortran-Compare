@@ -26,6 +26,7 @@ INTEGER, DIMENSION(800, 800) :: a, b, c
 PRINT*,"=== COMPARISON of MATRIX MULTIPLICATION ==="
 CALL SYSTEM('./matrixMulc')
 !CALL SYSTEM('./matrixMul.java')
+!CALL SYSTEM('python matrixMul.py')
 
 !initialize A and B
 DO i = 1, row
